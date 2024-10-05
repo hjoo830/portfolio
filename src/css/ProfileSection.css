@@ -60,6 +60,10 @@
   max-width: 300px;
 }
 
+.profileLink:hover {
+  background-color: #393E46;
+}
+
 .linkBorder {
   background-color: #EEEEEE;
   position: absolute;
