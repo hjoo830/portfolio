@@ -1,0 +1,87 @@
+.profileSection {
+  display: flex;
+  justify-content: center;
+}
+
+.profilecontainer {
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  width: 80vw;
+  height: 50vh;
+  padding: 40px;
+  min-width: 620px;
+}
+
+.profileWrap {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.profilecontainer img {
+  flex: 1;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.profileInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+
+.profileInfoText p {
+  font-size: 1.1rem;
+}
+
+.profileLinkContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  background-color: #EEEEEE;
+  position: relative;
+  z-index: 2;
+  max-width: 358px;
+}
+
+.profileLink {
+  color: #fff;
+  text-decoration: none;
+  background-color: #4B5563;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 0.2rem solid #EEEEEE;
+  z-index: 3;
+  max-width: 300px;
+}
+
+.linkBorder {
+  background-color: #EEEEEE;
+  position: absolute;
+  top: 10%;
+  left: -1%;
+  width: 100%;
+  height: 75%;
+  border-radius: 20px;
+  border: 3px solid #A0AEC0;
+  z-index: 1;
+  max-width: 357px;
+}
+
+.introduction {
+  margin-top: 70px;
+}
+
+.introduction p {
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+.introduction span {
+  font-weight: bold;
+}
