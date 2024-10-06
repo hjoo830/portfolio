@@ -9,7 +9,6 @@
   width: 80vw;
   height: 50vh;
   padding: 40px;
-  min-width: 620px;
 }
 
 .profileWrap {
@@ -88,4 +87,53 @@
 
 .introduction span {
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .profileInfo {
+    gap: 15px;
+  }
+
+  .profilecontainer {
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: auto;
+  }
+
+  .profileWrap {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .profileInfoText p {
+    margin: 0;
+  }
+
+  .profileLinkContainer {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profilecontainer {
+    margin: 0 15px;
+  }
+
+  .profileInfo {
+    flex-direction: column;
+  }
+
+  .profileInfoText p {
+    text-align: center;
+  }
+
+  .introduction {
+    margin-top: 20px;
+  }
+
+  .introduction p {
+    font-size: 1rem;
+    line-height: 25px;
+  }
 }
