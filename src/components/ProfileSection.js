@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/ProfileSection.css";
 import profileImg from "../assets/profileImg.png";
+import { IoIosMail } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { SiVelog } from "react-icons/si";
 
 function ProfileSection() {
   return (
@@ -23,6 +26,7 @@ function ProfileSection() {
               rel="noopener noreferrer"
               className="profileLink"
             >
+              <IoIosMail className="profileLinkIcon" />
               hjoo830@naver.com
             </a>
             <a
@@ -31,6 +35,7 @@ function ProfileSection() {
               rel="noopener noreferrer"
               className="profileLink"
             >
+              <FaGithub className="profileLinkIcon" />
               GITHUB
             </a>
             <a
@@ -39,6 +44,7 @@ function ProfileSection() {
               rel="noopener noreferrer"
               className="profileLink"
             >
+              <SiVelog className="profileLinkIcon" />
               BLOG
             </a>
           </div>

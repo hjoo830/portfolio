@@ -49,6 +49,9 @@
 }
 
 .profileLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   color: #fff;
   text-decoration: none;
   background-color: #4B5563;
@@ -61,6 +64,11 @@
 
 .profileLink:hover {
   background-color: #393E46;
+}
+
+.profileLinkIcon {
+  color: #EEEEEE;
+  font-size: 1.2rem;
 }
 
 .linkBorder {
