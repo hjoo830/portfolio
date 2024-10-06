@@ -3,6 +3,7 @@ import "../css/ProfileSection.css";
 import profileImg from "../assets/profileImg.png";
 import { IoIosMail } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { SiVelog } from "react-icons/si";
 
 function ProfileSection() {
@@ -37,6 +38,15 @@ function ProfileSection() {
             >
               <FaGithub className="profileLinkIcon" />
               GITHUB
+            </a>
+            <a
+              href="https://www.linkedin.com/in/%ED%9A%A8%EC%A3%BC-%ED%99%A9-629560331/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="profileLink"
+            >
+              <FaLinkedin className="profileLinkIcon" />
+              LINKEDIN
             </a>
             <a
               href="https://velog.io/@hjoo830/posts"
