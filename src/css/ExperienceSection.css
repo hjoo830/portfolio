@@ -32,3 +32,19 @@
 .experienceItem h2 {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .experienceItem h2 {
+    font-size: 1.4rem;
+  }
+
+  .experienceItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .experienceContainer {
+    gap: 20px;
+  }
+}
