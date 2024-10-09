@@ -5,6 +5,7 @@
   padding-top: 25vh;
   padding-bottom: 25vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 .circle {
@@ -34,4 +35,29 @@
   color: transparent;
   z-index: 3;
   -webkit-text-stroke: 2px #A0AEC0;
+}
+
+@media (max-width: 768px) {
+
+  .startText,
+  .strokeText {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 444px) {
+  .startSection {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+  }
+
+  .circle {
+    width: 40vh;
+    height: 40vh;
+  }
+
+  .startText,
+  .strokeText {
+    font-size: 1.3rem;
+  }
 }
