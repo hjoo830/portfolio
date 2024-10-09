@@ -25,7 +25,14 @@
   color: #EEEEEE;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 15px;
+}
+
+.experienceTitleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .experienceItem p,
@@ -44,7 +51,52 @@
     gap: 5px;
   }
 
+  .experienceTitleWrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
   .experienceContainer {
     gap: 20px;
   }
+}
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modalImage {
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 5px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  background-color: #EEEEEE;
+  border-radius: 5px;
 }
