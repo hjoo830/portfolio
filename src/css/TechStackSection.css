@@ -1,0 +1,62 @@
+.techStackSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 8%;
+  background-color: #393E46;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-shadow: 4px 0px #A0AEC0;
+  margin: 0;
+  padding: 0;
+}
+
+.techStackContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 15px;
+}
+
+.techStackItem {
+  color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.techStackTitle {
+  position: absolute;
+  top: -50px;
+  left: -25px;
+  transform: rotate(-10deg);
+  border: 3px solid #EEEEEE;
+  padding: 5px;
+  color: #A0AEC0;
+  background-color: #393E46;
+  font-size: 1.8rem;
+}
+
+.techStackContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #A0AEC0;
+  border-radius: 20px;
+  padding: 40px;
+  padding-bottom: 20px;
+  gap: 10px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .techStackContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    row-gap: 20px;
+  }
+}
