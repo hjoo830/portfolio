@@ -5,6 +5,7 @@ import StartSection from "./components/StartSection.js";
 import ProfileSection from "./components/ProfileSection.js";
 import ExperienceSection from "./components/ExperienceSection.js";
 import TechStackSection from "./components/TechStackSection.js";
+import ProjectSection from "./components/ProjectSection.js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ProfileSection />
       <ExperienceSection />
       <TechStackSection />
+      <ProjectSection />
     </div>
   );
 }
