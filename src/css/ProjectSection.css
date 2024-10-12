@@ -1,0 +1,97 @@
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 8%;
+  background-color: #393E46;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-shadow: 4px 0px #A0AEC0;
+  margin: 0;
+  padding: 0;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 30px;
+}
+
+.projectItem {
+  color: #EEEEEE;
+  border: 3px solid #93C5FD;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 30px 40px 0 40px;
+  position: relative;
+  max-width: 700px;
+}
+
+.projectName {
+  position: absolute;
+  top: -30px;
+  left: -40px;
+  transform: rotate(-10deg);
+  background-color: #93C5FD;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.projectTitle {
+  font-size: 1.3rem;
+  color: #93C5FD;
+  margin: 5px 0;
+}
+
+.projectDate {
+  position: absolute;
+  top: -25px;
+  right: 15px;
+  font-size: 0.9rem;
+  color: #EEEEEE;
+  background-color: #393E46;
+  padding: 0px 10px;
+}
+
+.techStack {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.techBadge {
+  background-color: #EEEEEE;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.projectContent {
+  padding: 0 15px;
+}
+
+.projectContent>li {
+  color: #EEEEEE;
+  margin-bottom: 10px;
+}
+
+.projectContent ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.projectContent ul>li {
+  color: #F0F0F0;
+  font-size: 0.9rem;
+}
