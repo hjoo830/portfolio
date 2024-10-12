@@ -10,7 +10,12 @@ function ProjectSection() {
       <div className="sectionTitle">Projects</div>
       <div className="projectContainer">
         {projects.map((project, index) => (
-          <div key={index} className="projectItem">
+          <div
+            key={index}
+            className={`projectItem ${
+              index % 2 === 0 ? "oddProject" : "evenProject"
+            }`}
+          >
             <h2 className="projectName">{project.name}</h2>
             <p className="projectDate">{project.date}</p>
             <div className="techStack">

@@ -53,6 +53,30 @@
   margin: 5px 0;
 }
 
+.oddProject {
+  border-color: #93C5FD;
+}
+
+.oddProject .projectName {
+  background-color: #93C5FD;
+}
+
+.oddProject .projectTitle {
+  color: #93C5FD;
+}
+
+.evenProject {
+  border-color: #3B82F6;
+}
+
+.evenProject .projectName {
+  background-color: #3B82F6;
+}
+
+.evenProject .projectTitle {
+  color: #3B82F6;
+}
+
 .projectDate {
   position: absolute;
   top: -25px;
