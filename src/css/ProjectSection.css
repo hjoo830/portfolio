@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 50px 8%;
   background-color: #393E46;
+  padding-bottom: 150px;
 }
 
 .sectionTitle {
@@ -27,11 +28,14 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 50px;
   padding: 30px 40px 0 40px;
   position: relative;
   max-width: 700px;
-  min-width: 550px;
+  min-width: 600px;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
 }
 
 .projectName {
@@ -57,6 +61,7 @@
   border-color: #93C5FD;
   margin-left: 10px;
   margin-right: auto;
+  transform: translateX(-50px);
 }
 
 .oddProject .projectName {
@@ -71,6 +76,7 @@
   border-color: #3B82F6;
   margin-right: 10px;
   margin-left: auto;
+  transform: translateX(50px);
 }
 
 .evenProject .projectName {
@@ -79,6 +85,11 @@
 
 .evenProject .projectTitle {
   color: #3B82F6;
+}
+
+.projectItem.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .projectDate {
@@ -121,5 +132,5 @@
 
 .projectContent ul>li {
   color: #F0F0F0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }

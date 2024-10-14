@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/ProjectSection.css";
 import { projects } from "../data/projects";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 
 function ProjectSection() {
+  useEffect(() => {
+    const items = document.querySelectorAll(".projectItem");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          } else {
+            entry.target.classList.remove("visible");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    items.forEach((item) => observer.observe(item));
+
+    // 클린업
+    return () => items.forEach((item) => observer.unobserve(item));
+  }, []);
+
   return (
     <div className="projectSection">
       <div className="sectionTitle">Projects</div>
