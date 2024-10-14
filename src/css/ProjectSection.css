@@ -32,7 +32,7 @@
   padding: 30px 40px 0 40px;
   position: relative;
   max-width: 700px;
-  min-width: 600px;
+  min-width: 580px;
   opacity: 0;
   transform: translateX(-50px);
   transition: opacity 0.2s ease-out, transform 0.2s ease-out;
@@ -106,6 +106,7 @@
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 
 .techBadge {
@@ -131,6 +132,38 @@
 }
 
 .projectContent ul>li {
-  color: #F0F0F0;
+  color: #EEEEEE;
   font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .projectContainer {
+    padding: 10px;
+  }
+
+  .projectItem {
+    padding: 30px 20px 0 20px;
+    min-width: 200px;
+    margin-top: 50px;
+  }
+
+  .oddProject,
+  .evenProject {
+    margin: 50px 0px 0px 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .projectName {
+    font-size: 1.1rem;
+  }
+
+  .projectContent>li {
+    font-size: 0.7rem;
+  }
+
+  .projectContent ul>li {
+    font-size: 0.6rem;
+  }
 }
