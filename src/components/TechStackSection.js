@@ -4,7 +4,7 @@ import { techStacks } from "../data/techStacks";
 
 function TechStackSection() {
   return (
-    <div className="techStackSection">
+    <div id="techstack" className="techStackSection">
       <div className="sectionTitle">Tech Stacks</div>
       <div className="techStackContainer">
         {techStacks.map((techStack, index) => (

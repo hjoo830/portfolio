@@ -17,7 +17,7 @@ function ExperienceSection() {
   };
 
   return (
-    <div className="experienceSection">
+    <div id="experience" className="experienceSection">
       <div className="sectionTitle">Experiences</div>
       <div className="experienceContainer">
         {experiences.map((experience, index) => (

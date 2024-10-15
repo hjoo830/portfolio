@@ -28,7 +28,7 @@ function ProjectSection() {
   }, []);
 
   return (
-    <div className="projectSection">
+    <div id="project" className="projectSection">
       <div className="sectionTitle">Projects</div>
       <div className="projectContainer">
         {projects.map((project, index) => (

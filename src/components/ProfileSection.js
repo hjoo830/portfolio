@@ -8,7 +8,8 @@ import { SiVelog } from "react-icons/si";
 
 function ProfileSection() {
   return (
-    <div className="profileSection">
+    <div id="profile" className="profileSection">
+      <div className="sectionTitle">Profile</div>
       <div className="profilecontainer">
         <div className="profileInfo">
           <div className="profileWrap">
