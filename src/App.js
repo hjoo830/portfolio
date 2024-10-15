@@ -6,6 +6,7 @@ import ProfileSection from "./components/ProfileSection.js";
 import ExperienceSection from "./components/ExperienceSection.js";
 import TechStackSection from "./components/TechStackSection.js";
 import ProjectSection from "./components/ProjectSection.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ExperienceSection />
       <TechStackSection />
       <ProjectSection />
+      <Footer />
     </div>
   );
 }
