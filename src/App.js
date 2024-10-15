@@ -7,10 +7,12 @@ import ExperienceSection from "./components/ExperienceSection.js";
 import TechStackSection from "./components/TechStackSection.js";
 import ProjectSection from "./components/ProjectSection.js";
 import Footer from "./components/Footer.js";
+import Navbar from "./components/Navbar.js";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <StartSection />
       <ProfileSection />
       <ExperienceSection />
