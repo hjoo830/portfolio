@@ -1,6 +1,17 @@
 .profileSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding: 50px 8%;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-shadow: 4px 0px #A0AEC0;
+  margin: 0;
+  padding: 0;
 }
 
 .profilecontainer {
@@ -9,6 +20,7 @@
   width: 80vw;
   height: 50vh;
   padding: 40px;
+  margin-top: 10px;
 }
 
 .profileWrap {
