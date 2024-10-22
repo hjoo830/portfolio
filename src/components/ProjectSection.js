@@ -60,6 +60,27 @@ function ProjectSection() {
                 </li>
               ))}
             </ul>
+
+            <div className="projectLinks">
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub className="icon" />
+                </a>
+              )}
+              {project.websiteUrl && (
+                <a
+                  href={project.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiOutlineGlobal className="icon" />
+                </a>
+              )}
+            </div>
           </div>
         ))}
       </div>

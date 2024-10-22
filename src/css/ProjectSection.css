@@ -136,6 +136,29 @@
   font-size: 1rem;
 }
 
+.projectLinks {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: -25px;
+  background-color: #393E46;
+}
+
+.icon {
+  font-size: 30px;
+  color: #000;
+  margin: 5px;
+}
+
+.oddProject .icon {
+  color: #93C5FD;
+}
+
+.evenProject .icon {
+  color: #3B82F6;
+}
+
 
 @media (max-width: 768px) {
   .projectContainer {
