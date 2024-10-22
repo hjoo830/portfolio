@@ -4,6 +4,7 @@ export const projects = [
     title: "칵테일 레시피 웹사이트",
     date: "23.03 ~ 23.06 (1명)",
     techStack: ["JavaScript", "HTML", "CSS", "Express", "LocalStorage"],
+    githubUrl: "https://github.com/hjoo830/SWDesign",
     content: [
       {
         function: "칵테일 목록",
@@ -44,6 +45,7 @@ export const projects = [
     title: "소모임 매칭 웹사이트",
     date: "23.09 ~ 23.12 (6명)",
     techStack: ["React", "Redux", "JWT"],
+    githubUrl: "https://github.com/MO-DI-RA/frontend",
     content: [
       {
         function: "회원가입 및 로그인",
@@ -93,6 +95,7 @@ export const projects = [
     title: "웨이팅 및 테이블링 앱과 키오스크, 포스기, 관리자 웹",
     date: "24.03 ~ 24.12 (5명)",
     techStack: ["ReactNative", "React", "Context API"],
+    githubUrl: "https://github.com/O-DI-GA",
     content: [
       {
         function: "사용자 앱 - 내 웨이팅 정보",
@@ -214,6 +217,8 @@ export const projects = [
     title: "의약품 도매 회사 홈페이지",
     date: "24.07 ~ 24.08 (1명)",
     techStack: ["React", "SMTP", "SHA256", "AWS", "MySQL", "AWS Lambda"],
+    githubUrl: "https://github.com/hjoo830/inbestpharm",
+    websiteUrl: "http://inbestpharm.s3-website.ap-northeast-2.amazonaws.com/",
     content: [
       {
         function: "회사 소개",
