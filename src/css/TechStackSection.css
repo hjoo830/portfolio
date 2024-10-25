@@ -52,6 +52,12 @@
   width: 100%;
 }
 
+@media (min-width: 1600px) {
+  .techStackSection {
+    padding: 50px 20%;
+  }
+}
+
 @media (min-width: 768px) {
   .techStackContainer {
     display: grid;

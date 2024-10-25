@@ -18,7 +18,6 @@
   background-color: #EEEEEE;
   border-radius: 10px;
   width: 80vw;
-  height: 50vh;
   padding: 40px;
   margin-top: 10px;
 }
@@ -107,6 +106,21 @@
 
 .introduction span {
   font-weight: bold;
+}
+
+@media (min-width: 1600px) {
+  .profileSection {
+    padding: 50px 20%;
+  }
+
+  .profilecontainer {
+    padding: 80px;
+    width: auto;
+  }
+
+  .sectionTitle {
+    font-size: 2.5rem !important;
+  }
 }
 
 @media (max-width: 768px) {

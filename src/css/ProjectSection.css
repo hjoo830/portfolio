@@ -159,6 +159,11 @@
   color: #3B82F6;
 }
 
+@media (min-width: 1600px) {
+  .projectSection {
+    padding: 50px 20%;
+  }
+}
 
 @media (max-width: 768px) {
   .projectContainer {

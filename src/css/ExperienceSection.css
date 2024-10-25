@@ -40,6 +40,12 @@
   margin: 0;
 }
 
+@media (min-width: 1600px) {
+  .experienceSection {
+    padding: 50px 20%;
+  }
+}
+
 @media (max-width: 768px) {
   .experienceItem h2 {
     font-size: 1.4rem;
