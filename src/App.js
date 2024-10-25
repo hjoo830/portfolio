@@ -8,10 +8,12 @@ import TechStackSection from "./components/TechStackSection.js";
 import ProjectSection from "./components/ProjectSection.js";
 import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.js";
+import ParticleEffect from "./components/ParticleEffect.js";
 
 function App() {
   return (
     <div className="App">
+      <ParticleEffect />
       <Navbar />
       <StartSection />
       <ProfileSection />
