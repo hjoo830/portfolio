@@ -1,4 +1,15 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('./fonts/Pretendard-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Pretendard-Regular';
+}
+
 .App {
   background-color: #393E46;
-  height: 200vh;
+  height: 400vh;
 }
