@@ -27,12 +27,6 @@ export const experiences = [
     link: "https://github.com/hjoo830/9oormthon-DEEP-DIVE",
   },
   {
-    title: "우아한테크코스 프리코스",
-    date: "2024.10.15 ~ 2024.11.11",
-    type: "github",
-    link: "private",
-  },
-  {
     title: "영남대학교 컴퓨터공학과 졸업",
     date: "2025.02.21",
     type: "file",
