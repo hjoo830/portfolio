@@ -58,7 +58,7 @@ function ExperienceSection() {
         <div className="modalBackground" onClick={closeModal}>
           <div className="modalContent" onClick={(e) => e.stopPropagation()}>
             <button className="closeButton" onClick={closeModal}>
-              X
+              x
             </button>
             <img src={modalImage} alt="Experience" className="modalImage" />
           </div>
