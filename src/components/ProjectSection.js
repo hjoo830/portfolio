@@ -48,18 +48,43 @@ function ProjectSection() {
               ))}
             </div>
             <h3 className="projectTitle">{project.title}</h3>
-            <ul className="projectContent">
-              {project.content.map((func, idx) => (
-                <li key={idx}>
-                  <strong>{func.function}</strong>
-                  <ul>
-                    {func.descriptions.map((description, descIdx) => (
-                      <li key={descIdx}>{description}</li>
-                    ))}
-                  </ul>
-                </li>
-              ))}
-            </ul>
+
+            {project.name === "ODIGA" ? (
+              <div className="odigaContent">
+                {project.content.map((client, catIdx) => (
+                  <details key={catIdx} className="clientContainer">
+                    <summary className="clientName">{client.client}</summary>
+                    <ul className="clientContent">
+                      {client.features.map((feature, featureIdx) => (
+                        <li key={featureIdx}>
+                          <strong className="featureName">
+                            {feature.function}
+                          </strong>
+                          <ul>
+                            {feature.descriptions.map((desc, descIdx) => (
+                              <li key={descIdx}>{desc}</li>
+                            ))}
+                          </ul>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                ))}
+              </div>
+            ) : (
+              <ul className="projectContent">
+                {project.content.map((func, idx) => (
+                  <li key={idx}>
+                    <strong>{func.function}</strong>
+                    <ul>
+                      {func.descriptions.map((description, descIdx) => (
+                        <li key={descIdx}>{description}</li>
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ul>
+            )}
 
             <div className="projectLinks">
               {project.githubUrl && (
