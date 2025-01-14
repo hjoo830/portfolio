@@ -320,4 +320,39 @@ export const projects = [
       },
     ],
   },
+  {
+    name: "Pin it",
+    title: "Pinterest 클론 코딩 및 기능 추가",
+    date: "24.12 ~ 25.01 (5명)",
+    techStack: ["React", "TypeScript", "Firebase", "Tailwind.css"],
+    githubUrl: "https://github.com/GoormPinIt/pin-it",
+    websiteUrl: "",
+    content: [
+      {
+        function: "마이페이지 및 프로필 페이지",
+        descriptions: [
+          "프로필의 공유 버튼을 눌러 링크 복사, WhatsApp 공유, Facebook Messenger 공유, Facebook 공유, X(Twitter) 공유 가능",
+          "팔로워 목록과 팔로잉 목록을 볼 수 있으며 팔로우 / 언팔로우 가능",
+          "생성한 핀 목록과 저장한 핀 목록을 Masonry Layout으로 표시",
+          "생성한 보드 목록을 볼 수 있으며, 최신순 / 알파벳순으로 정렬 가능",
+          "마이페이지에서만 + 버튼이 나타나며, 핀 만들기 페이지로 이동하거나 보드 만들기 모달 표시",
+          "보드 만들기에서 비밀보드 유지, 참여자 초대 가능",
+        ],
+      },
+      {
+        function: "스토리",
+        descriptions: [
+          "팔로우 중인 사용자의 스토리만 목록에 표시",
+          "스토리를 올린 유저의 프로필 클릭 시 업로드한 스토리와 상대 시간 표시",
+          "한 유저가 여러개의 스토리를 올린 경우 화살표가 나타나며 다음 스토리 조회 가능",
+          "스토리는 업로드 후 24시간이 지나면 자동 삭제",
+          "본인이 올린 스토리가 없을 경우, 프로필 클릭 또는 + 버튼으로 스토리 생성",
+        ],
+      },
+      {
+        function: "프로필 수정",
+        descriptions: ["프로필 사진, 닉네임, 소개글, 아이디 변경 가능"],
+      },
+    ],
+  },
 ];
