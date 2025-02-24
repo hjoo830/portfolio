@@ -326,7 +326,7 @@ export const projects = [
     date: "24.12 ~ 25.01 (5명)",
     techStack: ["React", "TypeScript", "Firebase", "Tailwind.css"],
     githubUrl: "https://github.com/GoormPinIt/pin-it",
-    websiteUrl: "",
+    websiteUrl: "http://goorm-pin-it.s3-website.ap-northeast-2.amazonaws.com/",
     content: [
       {
         function: "마이페이지 및 프로필 페이지",
