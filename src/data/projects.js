@@ -281,7 +281,7 @@ export const projects = [
     date: "24.07 ~ 24.08 (1명)",
     techStack: ["React", "SMTP", "SHA256", "AWS", "MySQL", "AWS Lambda"],
     githubUrl: "https://github.com/hjoo830/inbestpharm",
-    websiteUrl: "http://inbestpharm.s3-website.ap-northeast-2.amazonaws.com/",
+    websiteUrl: "",
     content: [
       {
         function: "회사 소개",
@@ -352,6 +352,42 @@ export const projects = [
       {
         function: "프로필 수정",
         descriptions: ["프로필 사진, 닉네임, 소개글, 아이디 변경 가능"],
+      },
+    ],
+  },
+  {
+    name: "Chat HHJ",
+    title: "ChatGPT 클론 코딩",
+    date: "25.02 ~ 25.03 (1명)",
+    techStack: ["Next.js", "TypeScript", "ChatGPT API", "Neon", "Vercel"],
+    githubUrl: "https://github.com/hjoo830/nextjs-chatgpt-clone",
+    websiteUrl: "https://nextjs-chatgpt-clone-ebon.vercel.app/",
+    content: [
+      {
+        function: "회원가입 및 로그인",
+        descriptions: [
+          "이름, 이메일, 비밀번호 유효성 검사",
+          "중복 가입 여부 확인",
+          "존재하지 않는 회원 처리",
+          "비밀번호 불일치 처리",
+        ],
+      },
+      {
+        function: "채팅",
+        descriptions: [
+          "첫 채팅 입력 시 대화 목록에 추가",
+          "채팅 내용 DB 저장 및 로그인 후 확인 가능",
+          "새로운 대화 버튼으로 새로운 대화 시작 가능",
+          "GPT-3.5 Turbo, GPT-4, GPT-4o 중 모델 선택 가능",
+        ],
+      },
+      {
+        function: "대화 수정 및 삭제",
+        descriptions: [
+          "마우스 호버 시 … 아이콘 표시",
+          "Edit 버튼으로 대화 제목 수정",
+          "Delete 버튼으로 대화 삭제",
+        ],
       },
     ],
   },
