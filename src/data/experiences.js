@@ -1,6 +1,7 @@
 import swEduVolunteerImage from "../assets/sw교육봉사.jpeg";
 import informationProcessingEngineer from "../assets/정보처리기사.jpg";
 import diploma from "../assets/졸업.jpg";
+import sqld from "../assets/SQLD.png";
 
 export const experiences = [
   {
@@ -26,5 +27,11 @@ export const experiences = [
     date: "2025.02.21",
     type: "file",
     imgSrc: diploma,
+  },
+  {
+    title: "SQLD 취득",
+    date: "2025.04.04",
+    type: "file",
+    imgSrc: sqld,
   },
 ];
