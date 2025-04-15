@@ -391,4 +391,53 @@ export const projects = [
       },
     ],
   },
+  {
+    name: "IT TIME",
+    title: "대규모 IT 컨퍼런스 운영 웹 사이트",
+    date: "25.02.26 ~ 25.04.01 (9명)",
+    techStack: ["Next.js", "TypeScript", "Tailwind.css", "Zustand", "Vercel"],
+    githubUrl: "https://github.com/saero-jinro/saerojinro-client",
+    websiteUrl: "https://ittime.site/",
+    content: [
+      {
+        function: "강의 목록",
+        descriptions: ["날짜별 시간대별 강의 조회", "카테고리 필터링"],
+      },
+      {
+        function: "강의 상세 페이지",
+        descriptions: [
+          "강의 시간 및 장소, 제목, 카테고리, 상세 설명 등 표시",
+          "강연자 소개 표시",
+          "강의자료 다운로드",
+          "사전 질문 등록 및 조회",
+          "본인이 등록한 사전 질문의 경우 수정 및 삭제 가능",
+        ],
+      },
+      {
+        function: "시간표",
+        descriptions: [
+          "날짜별로 본인이 신청한 강의들을 시간표 형태로 조회",
+          "빈 시간 클릭 시 우측에 해당 시간에 추가한 즐겨찾기 목록과 추천 강의 목록 표시",
+          "전체 즐겨찾기 목록 조회",
+          "모바일의 경우 우측에 표시되는 것이 아닌, 바텀 시트로 구현",
+        ],
+      },
+      {
+        function: "강의 신청 기능",
+        descriptions: [
+          "강의 신청 버튼을 컴포넌트로 분리하여 카드, 상세 페이지 등 여러 곳에서 재사용",
+          "강의 신청 / 취소 토글",
+          "강의 신청 시 시간표에 바로 반영되도록 구현",
+        ],
+      },
+      {
+        function: "즐겨찾기 기능",
+        descriptions: [
+          "즐겨찾기 버튼을 컴포넌트로 분리하여 카드, 상세 페이지 등 여러 곳에서 재사용",
+          "즐겨찾기 추가 / 삭제 토글",
+          "zustand를 이용하여 전역으로 상태 관리",
+        ],
+      },
+    ],
+  },
 ];
